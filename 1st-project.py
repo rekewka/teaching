@@ -22,8 +22,8 @@ class SneakerStore:
         for sneaker in self.stock:
             if sneaker.brand == brand and sneaker.size == size:
                 self.stock.remove(sneaker)
-            print("Ты купил:" + brand + ' ' + str(size))
-            return
+                print("Ты купил:" + brand + ' ' + str(size))
+                return
         print("Такого бренда нет в наличии")
 
 
